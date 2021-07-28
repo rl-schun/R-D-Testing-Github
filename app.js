@@ -1,3 +1,7 @@
-console.log("Hello World, Hello R&D");
+const validator = require("validator");
 
-console.log("This is another line of code");
+const myEmail = "richardlimsiuchun";
+
+const emailIsCorrect = validator.isEmail(myEmail);
+
+console.log(emailIsCorrect);
