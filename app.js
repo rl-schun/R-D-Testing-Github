@@ -6,4 +6,4 @@ const emailIsCorrect = validator.isEmail(myEmail);
 
 console.log(emailIsCorrect);
 
-console.log("This is an edit from another folder (1)");
+console.log("This is an edit from another folder (1) this is edited");
